@@ -1,16 +1,16 @@
 const messages = [
-    "Cảm ơn bạn vì đã xuất hiện và làm cho những ngày bình thường trở nên đặc biệt hơn 💗",
-    "Mỗi khi nghĩ đến bạn, mình lại có thêm một lý do để mỉm cười 😊",
+    "Cảm ơn em vì đã xuất hiện và làm cho những ngày bình thường trở nên đặc biệt hơn 💗",
+    "Mỗi khi nghĩ đến em, anh lại có thêm một lý do để mỉm cười 😊",
     "Mong rằng chúng ta sẽ cùng nhau tạo thêm thật nhiều kỷ niệm đẹp ✨",
-    "Dù hôm nay có mệt mỏi thế nào, hãy nhớ rằng luôn có mình quan tâm đến bạn 🌷",
-    "Bạn là một trong những điều tuyệt vời nhất đã đến với cuộc sống của mình 💕",
-    "Chỉ cần được ở cạnh bạn, một ngày bình thường cũng trở thành ngày đáng nhớ 🌸",
-    "Gửi đến bạn một cái ôm thật ấm áp và thật nhiều yêu thương 🤗",
-    "Hy vọng nụ cười sẽ luôn xuất hiện trên môi bạn mỗi ngày 🌹",
-    "Mình trân trọng từng khoảnh khắc được đồng hành cùng bạn 💖",
-    "Bạn không cần phải hoàn hảo, vì với mình bạn đã luôn rất đặc biệt rồi 💌",
-    "Cảm ơn bạn đã luôn lắng nghe, chia sẻ và ở bên mình trong những lúc cần thiết 🥰",
-    "Hãy luôn vui vẻ nhé, vì nụ cười của bạn chính là điều mình thích nhất 🌟"
+    "Dù hôm nay có mệt mỏi thế nào, hãy nhớ rằng luôn có anh quan tâm đến em 🌷",
+    "Em là một trong những điều tuyệt vời nhất đã đến với cuộc sống của anh 💕",
+    "Chỉ cần được ở cạnh em, một ngày bình thường cũng trở thành ngày đáng nhớ 🌸",
+    "Gửi đến em yêuuuu của anh một cái ôm thật ấm áp và thật nhiều yêu thương 🤗",
+    "Hy vọng nụ cười sẽ luôn xuất hiện trên môi em mỗi ngày 🌹",
+    "Anh trân trọng từng khoảnh khắc được đồng hành cùng em yêuuuuu 💖",
+    "Em không cần phải hoàn hảo, vì với anh em đã luôn rất đặc biệt rồi 💌",
+    "Cảm ơn em đã luôn lắng nghe, chia sẻ và ở bên mình trong những lúc cần thiết 🥰",
+    "Hãy luôn vui vẻ nhé, vì nụ cười của em chính là điều mình thích nhất 🌟"
 ];
 
 const welcomeScreen = document.getElementById('welcomeScreen');
