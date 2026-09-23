@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bức thư gửi người thương</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-hearts" id="backgroundHearts"></div>
+
+    <main class="container">
+        <section id="welcomeScreen" class="screen active">
+            <p class="small-title">GỬI NGƯỜI THƯƠNG</p>
+            <h1>Mình có điều muốn gửi đến bạn...</h1>
+            <p class="description">Nhấn vào nút bên dưới để nhận một bức thư đặc biệt nhé!</p>
+            <button id="startButton" class="main-button">Mở trang yêu thương 💗</button>
+        </section>
+
+        <section id="letterScreen" class="screen">
+            <p class="small-title">MỘT BỨC THƯ DÀNH CHO BẠN</p>
+            <h2>Hãy nhấn vào phong thư</h2>
+
+            <button id="envelope" class="envelope" aria-label="Mở bức thư">
+                <span class="envelope-back"></span>
+                <span class="letter-paper">
+                    <span>Gửi bạn</span>
+                    <span class="mini-heart">♥</span>
+                </span>
+                <span class="envelope-front"></span>
+                <span class="envelope-flap"></span>
+                <span class="seal">♥</span>
+            </button>
+
+            <p id="letterHint" class="hint">Chạm vào phong thư để mở</p>
+        </section>
+
+        <section id="heartScreen" class="screen">
+            <p class="small-title">NHỮNG TRÁI TIM NHỎ</p>
+            <h2>Hãy chọn một trái tim</h2>
+            <p class="description">Mỗi trái tim đang giữ một thông điệp dành riêng cho bạn.</p>
+
+            <div id="heartList" class="heart-list"></div>
+
+            <button id="restartButton" class="secondary-button">↻ Xem lại từ đầu</button>
+        </section>
+    </main>
+
+    <div id="messageModal" class="modal" aria-hidden="true">
+        <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="messageTitle">
+            <button id="closeModal" class="close-button" aria-label="Đóng thông điệp">×</button>
+            <div class="modal-heart">♥</div>
+            <h2 id="messageTitle">Thông điệp dành cho bạn</h2>
+            <p id="randomMessage"></p>
+            <button id="receiveButton" class="main-button">Nhận yêu thương 💕</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
